@@ -2,6 +2,10 @@
 .header{
     box-shadow: 0 1px 3px rgb(0, 0, 0,0.1);
     position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 999;
 }
 
 .header-top{
@@ -91,7 +95,7 @@
 /* section-one */
 .section-one{
     background-color: #F1F2F6;
-    padding: 60px 0;
+    padding: 60px 0 0 0;
 }
 
 .section-one .inner-wrap{
@@ -176,3 +180,198 @@
     font-weight: 700;
 }
 /* section-one */
+
+
+/* section-two */
+.section-two .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.section-two .inner-box{
+    width:32%;
+    position: relative;
+    aspect-ratio: 4/3; /*tỉ lệ width / height*/
+}
+
+.section-two .inner-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*tuong tự background-size nhưng dùng cho img*/
+}
+
+.section-two .inner-box .inner-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+}
+.section-two .inner-box .inner-content .inner-tag{
+    background-color: #13A05D;
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.section-two .inner-box .inner-content .inner-title{
+    font-weight: 600;
+}
+
+.section-two .inner-box:nth-child(1) .inner-content .inner-title{
+    color: #fff;
+    font-size: 38px;
+}
+
+.section-two .inner-box:nth-child(2) .inner-content .inner-title{
+    color: var(--color-one);
+    font-size: 35px;
+    max-width: 100px;
+
+
+}
+
+.section-two .inner-box:nth-child(3) .inner-content .inner-title{
+    color: var(--color-one);
+    font-size: 35px;
+
+} 
+
+.section-two .inner-box:nth-child(2) .inner-content .inner-sale{
+    color: var(--color-two);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.section-two .inner-box:nth-child(3) .inner-content .inner-price-old{
+    color: var(--color-two);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.section-two .inner-box:nth-child(3) .inner-content .inner-price-new{
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: line-through;
+    margin-top: 10px;
+}
+
+.section-two .inner-box .button{
+    position: absolute;
+    background-color: var(--color-one);
+    left: 40px;
+    bottom: 40px;
+}
+
+.section-two .inner-box .button:hover{
+    border: 1px solid var(--color-one);
+    background-color: #fff;
+    color: var(--color-one);
+    
+}
+/* section-two */
+
+/* section-three */
+
+.section-three{
+    background-color: var(--color-bg);
+    padding: 80px 0;
+}
+
+.section-three .inner-title{
+    text-align: center;
+    max-width: 700px;
+    position: relative;
+    left: 250px;
+}
+.section-three .inner-title .inner-head{
+    color: var(--color-one);
+    font-size: 48px;
+    padding: 0 0 40px 0;
+    margin: 0;
+}
+
+.section-three .inner-title .inner-desc{
+    margin-top: 0;
+    color: var(--color-text);
+    font-size: 20px;
+}
+
+.section-three .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-three .inner-wrap .inner-box{
+    width: 30%;
+    color: var(--color-text);
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.section-three .inner-wrap .inner-box i{
+    font-size: 35px;
+}
+
+.section-three .inner-wrap .inner-box .title{
+    font-size: 25px;
+    color: var(--color-one);
+    font-weight: 600;
+}
+
+/* section-three */
+
+/* section-four */
+.section-four{
+    padding: 80px 0;
+}
+
+.section-four .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-four .inner-wrap .inner-content{
+    width: 50%;
+}
+
+.section-four .inner-wrap .inner-content .inner-title{
+    max-width: 300px;
+    font-size: 60px;
+    color: var(--color-one);
+    margin-bottom: 32px;
+}
+
+.section-four .inner-wrap .inner-content .inner-desc{
+    font-size: 22px;
+    color: var(--color-text);
+    margin-top: 0  ;
+}
+
+.section-four .inner-wrap .inner-content a{
+    margin-top: 16px;
+    background-color: var(--color-two);
+}
+
+.section-four .inner-wrap .inner-content a:hover{
+    border: 2px solid var(--color-two);
+    color: var(--color-two);
+    background-color: #fff  ;
+
+}
+
+.section-four .inner-wrap .inner-image{
+    width: 50%;
+}
+
+.section-four .inner-wrap .inner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* section-four */

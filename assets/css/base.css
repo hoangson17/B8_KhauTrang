@@ -17,3 +17,11 @@ a{
     text-decoration: none;
     color: #103178;
 }
+
+.button{
+    display: inline-block;
+    border-radius: 35px;
+    padding: 15px 40px;
+    background-color: grey;
+    color: #fff;
+}
