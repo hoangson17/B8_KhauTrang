@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --color-one : #103178;
+    --color-two : #FEC700;
+    --color-text : #5b6c8f;
+    --color-bg : #F1F2F6;
+    --font : "Inria Serif", serif;
+    
+}
+
+*{
+    font-family: var(--font);
+}
+
+a{
+    text-decoration: none;
+    color: #103178;
+}
