@@ -20,7 +20,39 @@ a{
 
 .button{
     border-radius: 35px;
-    padding: 15px 40px;
+    padding: 13px 38px;
     background-color: grey;
     color: #fff;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media (max-width:1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (max-width:576px) {
+    .container{
+        max-width: calc(100% - 30px);
+
+    }
 }
